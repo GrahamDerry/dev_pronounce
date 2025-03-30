@@ -18,13 +18,22 @@ This is a Telegram bot designed to help Spanish-speaking developers improve thei
 
 ## Setup
 
-1. Clone the repository.
+1. Clone the repository.  
 2. Create a `.env` file with the following:
-- TELEGRAM_BOT_TOKEN=your_telegram_token 
-- GOOGLE_APPLICATION_CREDENTIALS=path/to/google-credentials.json
+
+    ```
+    TELEGRAM_BOT_TOKEN=your_telegram_token
+    GOOGLE_APPLICATION_CREDENTIALS=path/to/google-credentials.json
+    ```
+
 3. Install dependencies:
 
-```bash
-pip3 install -r requirements.txt
-4. run the bot
-- bot.py
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+4. Run the bot:
+
+    ```bash
+    python3 bot.py
+    ```
