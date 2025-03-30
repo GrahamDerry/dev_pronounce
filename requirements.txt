@@ -1,0 +1,5 @@
+python-telegram-bot[async]  # Telegram bot framework (async version for scalability)
+python-dotenv  # To load environment variables from .env
+requests  # To make API requests (e.g., Google Translate API)
+sqlalchemy  # ORM for handling SQLite/PostgreSQL/MySQL databases
+google-cloud-texttospeech # Allows for text to speech
